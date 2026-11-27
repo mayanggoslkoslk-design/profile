@@ -1,154 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profil saya</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Profile</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>>
-    <div class="page">
-   <header class="hero">
-    <div class="profile-content">
-        <span class="badge"></span>
-                <h1 id="teks1" class="judul judul=besar">
-                    <p id="text2" class="judul">
-                        Saya seorang siswa MAN 3 Tulungagung yang sedang belajar Rekayasa
-                         perangkat lunak (RPL)
-                    </p>
-                </div> 
-                <img class="profile-photo" src="IMG_20261127_085418.png alt="photo profile" />
-            </header>
+  <body class="page">
+    <header class="hero">
+      <div class="profile-content">
+        <span class="badge">Web Profile</span>
+        <h1 id="text1" class="judul judul-besar">Mayang Agustin</h1>
+        <p id="text2" class="judul">
+          Saya seorang siswa MAN 3 Tulungagung yang sedang belajar Rekayasa
+          Perangkat Lunak (RPL)
+        </p>
+      </div>
+      <img class="profile-photo" src="/IMG_20261127_085418.png" alt="photo profile" />
+    </header>
 
-            <main class="card">
-<h2>media sosial</h2>
-<div class="social-links"></div>
-        <a href="">@myg.agstn</a>
-        <a href="">@_apsjj4</a>
-            </div>
-        </section>
-
-        
-            
-
-                </span></span>
-            </div>
-            
-        </header>
-        </div>
-    <h1 style="color: rgb(54, 175, 175)" mayang agustin ></h1>
-    <h1> Mayang agustin</h1>
-    <p>saya seorang siswa MAN 3 Tulungagung yang sedang belajar Rekayasa perangkat lunak (RPL)</p>
-    <img src="" alt="photo profile" height="150px" />
-    <section>
-        <h2>hobi</h2>
-        <ul>
-            <li>jalan jalan</li>
+    <main class="content-grid">
+      <section class="card">
+        <h2>Hobi</h2>
+        <ul class="hobby-list">
+          <li>jalan jalan</li>
+          <li>volly</li>
         </ul>
-    </section>
-    <section>
-       <h2>media sosial</h2>
-        <a href="">@myg.agstn</a>
-        <a href="">@_apsjj4</a>
-    </section>
+      </section>
 
-    <!-- jadwal pelajaran -->
-    <table></table>
-<thead>
-            <tr>
-                <th>Hari</th>
-                <th>Mata Pelajaran</th>
-            </tr>
-        </body>thead>
+      <section class="card">
+        <h2>Media Sosial</h2>
+        <div class="social-links">
+          <a href="#"> Youtube </a>
+          <a href="myg.agstn">Instagram</a>
+          <a href="_apsjj4">Tiktok</a>
+        </div>
+      </section>
 
-        <body>
-            <tr>
-                <td rowspan="6">senin</td>
-                <td>sosiologi</td>
-            </tr>
-            <tr>
-                <td>Bahasa inggris</td>
-            </tr>
-            <tr>
-                <td>Biologi</td>
-            </tr>
-            <tr>
-                <td>SKI</td>
-            </tr>
-            <tr>
-                <td>akidah akhlak</td>
-            </tr>
-            <tr>
-                <td>informatika</td>
-            </tr>
-            <tr>
-                <td rowspan="6">selasa</td>
-                <td>penjas</td>
-            </tr>
-            <tr>
-                <td>kimia</td>
-            </tr>
-            <tr>
-                <td>Matematika</td>
-            </tr>
-            <tr>
-                <td>sejarah</td>
-            </tr>
-            <tr>
-                <td>Bahasa indonesia</td>
-            </tr>
-            <tr>
-                <td>Pancasila</td>
-            </tr>
-            <tr>
-                <td rowspan="4">rabu</td>
-                <td>Quran hadist</td>
-            </tr>
-            <tr>
-                <td>mtk tka</td>
-            </tr>
-            <tr>
-                <td>bahasa arab</td>
-            </tr>
-            <tr>
-                <td>RPL</td>
-            </tr>
-            <tr>
-                <td rowspan="5">kamis</td>
-                <td>fiqih</td>
-            </tr>
-            <tr>
-                <td>fisika</td>
-            </tr>
-            <tr>
-                <td>Matematika</td>
-            </tr>
-            <tr>
-                <td>ekonomi</td>
-            </tr>
-            <tr>
-                <td>bahasa arab</td>
-            </tr>
-            <tr>
-                <td rowspan="5">jumat</td>
-                <td>geografi</td>
-            </tr>
-            <tr>
-                <td>koding</td>
-            </tr>
-            <tr>
-                <td>bahasa indonesia</td>
-            </tr>
-            <tr>
-                <td>seni budaya</td>
-            </tr>
-            <tr>
-                <td>bahasa inggris</td>
+      <section class="card form-card">
+        <h2>Kontak</h2>
+        <form>
+          <div class="field-group">
+            <label>Nama:</label>
+            <input type="text" placeholder="Masukkan nama anda!" />
+          </div>
+          <div class="field-group">
+            <label>Pesan</label>
+            <textarea rows="4" placeholder="Masukkan pesan anda!"></textarea>
+          </div>
+          <button type="submit">Kirim Pesan</button>
+        </form>
+      </section>
 
-
-
-        </body>
-
+      <section class="card schedule-card">
+        <h2>Jadwal Pelajaran</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Hari</th>
+              <th>Mata Pelajaran</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3">Senin</td>
+              <td>Matematika</td>
+            </tr>
+            <tr>
+              <td>Bahasa Inggris</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Selasa</td>
+              <td>Matematika</td>
+            </tr>
+            <tr>
+              <td>Bahasa Inggris</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Rabu</td>
+              <td>Bahasa Jawa</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Kamis</td>
+              <td>Bahasa Jawa</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td rowspan="4">Jumat</td>
+              <td>Bahasa Jawa</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+            <tr>
+              <td>Bahasa Indonesia</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Mayang Agustin. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
